@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No build steps required"
+  build:
+    commands:
+      - echo "Build phase complete"
+artifacts:
+  files:
+    - '**/*'
